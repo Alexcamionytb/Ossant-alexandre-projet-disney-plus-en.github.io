@@ -3,9 +3,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #040714;
-    font-weight: 600;
+    font-family: "Gill Sans", sans-serif;
+    background-color: #000000;
+    font-weight: 400;
 
 }
 
@@ -51,26 +51,26 @@ header section {
 }
 
 header section h1 {
-    font-size: 33px;
+    font-size: 31px;
     margin-bottom: 25px;
     margin-top: 20px;
 }
 
 header section h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-top: -8px;
     margin-bottom: 19px;
 }
 
 header section p {
     color: #99a7a7;
-    font-size: 12px;
+    font-size: 11px;
     margin-bottom: 10px;
 }
 
 header section .form-container input[type="email"] {
     padding: 11px;
-    font-size: 14px;
+    font-size: 12px;
     border: 1px solid #32343E;
     border-radius: 2px;
     width: 350px;
@@ -83,7 +83,7 @@ header section .form-container input[type="email"] {
 
 header section .form-container button {
     padding: 12px 31px;
-    font-size: 14px;
+    font-size: 13px;
     color: black;
     background-color: #00bcd4;
     border: none;
@@ -95,19 +95,19 @@ header section .form-container button {
 
 header section .form-container button:hover {
     background-color: black;
-    transition: ease 0.7s;
+    transition: ease 0.8s;
     color: white;
 }
 
 header section h4 {
     color: #99a7a7;
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 19px;
 }
 
 header section h5 {
     color: #99a7a7;
-    font-size: 9px;
+    font-size: 10px;
 }
 
 header section .signe-bas img {
@@ -125,7 +125,7 @@ header section .signe-bas img {
     }
 
     header nav button {
-        font-size: 13px;
+        font-size: 12px;
         padding: 12px 18px;
         margin-right: 0;
         margin-top: 10px;
@@ -137,15 +137,15 @@ header section .signe-bas img {
     }
 
     header section h1 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     header section h3 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     header section p {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     header section .form-container input[type="email"] {
@@ -182,7 +182,7 @@ header section .signe-bas img {
     }
 
     header nav button {
-        font-size: 12px;
+        font-size: 13px;
         padding: 8px 15px;
         margin-right: 0;
         margin-top: 5px;
@@ -194,11 +194,11 @@ header section .signe-bas img {
     }
 
     header section h1 {
-        font-size: 24px;
+        font-size: 23px;
     }
 
     header section h3 {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     header section p {
@@ -238,7 +238,7 @@ header section .signe-bas img {
     }
 
     header nav button {
-        font-size: 12px;
+        font-size: 11px;
         padding: 8px 15px;
         margin-right: 0;
         margin-top: 0;
@@ -249,16 +249,16 @@ header section .signe-bas img {
 
 
     header section h1 {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     header section h3 {
-        font-size: 19px;
+        font-size: 18px;
         margin-top: 5px;
     }
 
     header section p {
-        font-size: 13px;
+        font-size: 11px;
     }
 
     header section .form-container input[type="email"] {
@@ -306,11 +306,11 @@ main .presentation{
  background-repeat: no-repeat;
  height: 600px;
  margin-top: 20px;
- color: white;
+ color: rgb(255, 255, 255);
 }
 
 main .presentation .conteneur {
-    padding-top: 190px;
+    padding-top: 200px;
     padding-left: 70px;
 }
 
@@ -366,7 +366,7 @@ main .presentation p{
     }
 
     main .presentation h1 {
-        font-size: 35px;
+        font-size: 34px;
     }
 
     main .presentation h4 {
@@ -417,12 +417,8 @@ main .presentation p{
 
 
 
-
-
-
-
 main .tableau .container {
-    font-family: Arial, sans-serif;
+    font-family: system-ui;
     background-color: #040714;
     color: white;
     margin: 0;
@@ -535,7 +531,7 @@ main .tableau .container .note a {
     }
 
     main .tableau .container h1 {
-        font-size: 24px;
+        font-size: 23px;
         margin-bottom: 15px;
     }
 
@@ -685,7 +681,7 @@ main .tableau .container .note a {
 }
 
 section .tableau-pour-tel {
-    font-family: Arial, sans-serif;
+    font-family: system-ui;
     background-color: #0b0b0d;
     color: #fff;
     display: flex;
@@ -994,13 +990,6 @@ main .tableau-pour-tel .note a {
 
 
 
-
-
-
-
-
-
-
 .menu-deroulant {
     color: #fff;
     margin-top: 60px;
@@ -1240,3 +1229,4 @@ footer .ligne3 {
         margin-bottom: -5px;
     }
 }
+
